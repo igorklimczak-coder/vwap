@@ -1,0 +1,21 @@
+{
+  "objective": "Maximum full set 1 net P&L",
+  "selected_stage": "Flow tuned",
+  "model": {
+    "kind": "weighted",
+    "w2": 1.0,
+    "w3": 0.0625,
+    "decay": "none",
+    "gamma": -0.5
+  },
+  "execution": {
+    "fee": 0.2,
+    "clip": 50,
+    "position_limit": 100,
+    "notional_limit": 5000.0,
+    "buffer": 0.12
+  },
+  "tie_rule": "Fewer orders, then original candidate order",
+  "candidate_count": 52,
+  "note": "Training-fit result, not cross-validated performance."
+}

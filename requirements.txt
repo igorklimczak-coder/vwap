@@ -1,0 +1,6 @@
+numpy==2.3.5
+pandas==2.2.3
+plotly==7.1.0
+matplotlib==3.10.8
+nbformat==5.11.1
+ipython==9.17.1

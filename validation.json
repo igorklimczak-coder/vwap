@@ -1,0 +1,15 @@
+{
+  "numerical_tests": "8 passed",
+  "independent_audit": "FIFO gross profit reconciles to decimal cash after fees on both sets",
+  "html": "13 interactive charts; 19 KaTeX equations; no browser errors; new VWAP research section visually inspected",
+  "notebook": "All 5 code cells executed in IPython",
+  "section_order": [
+    "data",
+    "model definitions",
+    "VWAP prediction research",
+    "execution rule",
+    "strategy selection",
+    "both replays",
+    "audit"
+  ]
+}

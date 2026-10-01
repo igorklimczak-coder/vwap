@@ -1,0 +1,11 @@
+dataset,scenario,net_pnl,gross_pnl,fees,orders,filled_units,terminal_position,peak_notional,max_drawdown
+Set 1,Base,6.25,7.85,1.6,8,250,0,690.85,5.25
+Set 1,Fee per level,6.25,7.85,1.6,8,210,0,690.85,4.249999999999999
+Set 1,0.5p extra each side,1.75,2.95,1.2,6,210,0,690.0,7.6
+Set 1,One snapshot stale theo,9.0,11.0,2.0,10,374,0,817.225,6.749999999999999
+Set 1,Double fee,2.0,4.0,2.0,5,250,0,862.5,8.049999999999999
+Set 2,Base,3.0,4.0,1.0,5,120,0,514.5,6.4
+Set 2,Fee per level,3.0,4.0,1.0,5,120,0,514.5,6.4
+Set 2,0.5p extra each side,2.4,3.4,1.0,5,120,0,514.5,6.6
+Set 2,One snapshot stale theo,-12.9,-11.5,1.4,7,340,0,847.5,14.6
+Set 2,Double fee,2.0,4.0,2.0,5,120,0,514.5,6.800000000000001

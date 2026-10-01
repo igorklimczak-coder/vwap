@@ -1,0 +1,63 @@
+{
+  "objective": "Maximum full set 1 net P&L",
+  "selected_stage": "Flow tuned",
+  "model": {
+    "kind": "weighted",
+    "w2": 1.0,
+    "w3": 0.0625,
+    "decay": "none",
+    "gamma": -0.5
+  },
+  "execution": {
+    "fee": 0.2,
+    "clip": 50,
+    "position_limit": 100,
+    "notional_limit": 5000.0,
+    "buffer": 0.12
+  },
+  "tie_rule": "Fewer orders, then original candidate order",
+  "candidate_count": 52,
+  "note": "Training-fit result, not cross-validated performance.",
+  "source_sha256": {
+    "vwap_workshop_books (2).csv": "3ef79c9d5f597679862a5c6be604211ff763aa9cb56fc94c4afaa0d8513e9479",
+    "vwap_workshop_trades (3).csv": "2923ebc0d3e48d9fda2753eacce9810fea20c205aff9c96b991049e9535e93c2",
+    "vwap_workshop_books_set2 (1).csv": "a0f57d2b4e4b3f3c48056cbbad04ca9ea55606e142a6b6e37c5c40534e3ee982",
+    "vwap_workshop_trades_set2 (1).csv": "8d6a9d53eb56fcac75a9ec29808e17df659a4904a48955a89b07c66891fe931f"
+  },
+  "results": {
+    "Set 1": {
+      "net_pnl": 6.25,
+      "gross_pnl": 7.85,
+      "fees": 1.6,
+      "orders": 8,
+      "filled_units": 250,
+      "terminal_position": 0,
+      "peak_notional": 690.85,
+      "max_drawdown": 5.25
+    },
+    "Set 2": {
+      "net_pnl": 3.0,
+      "gross_pnl": 4.0,
+      "fees": 1.0,
+      "orders": 5,
+      "filled_units": 120,
+      "terminal_position": 0,
+      "peak_notional": 514.5,
+      "max_drawdown": 6.4
+    }
+  },
+  "independent_fifo_audits": {
+    "Set 1": {
+      "fifo_gross": 7.85,
+      "fees": 1.6,
+      "net_cash": 6.25,
+      "terminal_position": 0
+    },
+    "Set 2": {
+      "fifo_gross": 4.0,
+      "fees": 1.0,
+      "net_cash": 3.0,
+      "terminal_position": 0
+    }
+  }
+}

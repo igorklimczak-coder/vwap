@@ -1,0 +1,6 @@
+timestamp,order,action,side,level,qty,price,signed_qty,cash_delta
+T04,1,BUY,BUY,1,30,8.5,30,-255.0
+T05,2,BUY,BUY,1,30,8.5,30,-255.0
+T10,3,SELL,SELL,1,20,8.65,-20,173.0
+T13,4,SELL,SELL,1,30,8.55,-30,256.5
+T20,5,LIQUIDATE,SELL,1,10,8.45,-10,84.5
